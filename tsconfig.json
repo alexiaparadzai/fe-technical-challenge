@@ -19,11 +19,13 @@
     "sourceMap": true,
     "lib": ["ESNext", "dom", "DOM.Iterable"],
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    // "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "target": "ESNext",
     "jsx": "react-jsx",
     "noEmit": true,
     "baseUrl": "./",
+    "types": ["@types/testing-library__jest-dom"],
     "declaration": false,
     "paths": {
       "src/*": ["src/*"]
